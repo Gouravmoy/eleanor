@@ -4,15 +4,68 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<img src=".\assets\_50.jpg" style="zoom:67%;" />
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+# Gouravmoy Mohanty
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Hello everyone. I am Gouravmoy Mohanty and I am a software engineerer living in Bangalore India.  
 
+# What and Why Eleanor?
 
-[jekyll-organization]: https://github.com/jekyll
+I have created this blog to serve as a repository for all the knowledge i have and will be accumuilating in my life. I am hoping to create posts about the topics i like like software engineering, books, photography, pholosophy, shortstories and life in general. I do this so that one day I and other may turn back to this for help and guidance 
+
+I have named this blog for the female lead character of the same name in the book [Eleanor & Park](https://en.wikipedia.org/wiki/Eleanor_%26_Park). I had immensely enjoyed reading the book and had really like Eleanor's character in the book. So i have dedicated the  name of my blog in her name. 
+
+# Software Engineering
+
+I started my career working for a QA team. As i was the only one who had the knowledge of how to code, i was given over the responsibility to manage the automation tool for the project. It was fun working on a small independent project and improving an existing product.
+
+After that I worked on creating an RCP (Rich Client Platform) based desktop application that will help QA team compare huge source and target datasets of any types (CSV, XML, database rows, etc) and give them a report of the differences.
+
+Next, in the current role, I have been working on building a web based application. It is an inhouse productivity suite consisting of multiple sub products. I have been working as a back-end developer in one of the sub-product 
+
+# Reading
+
+Besides software engineering, I am an avid reader. I like to read fiction and occasionaly non fiction. Below is the list of the books I like:
+
+## Fiction
+
+- [Harry Potter Series](https://en.wikipedia.org/wiki/Harry_Potter)
+- [The Dresden Files](https://en.wikipedia.org/wiki/The_Dresden_Files)
+- [Lord of the Rings Series](https://en.wikipedia.org/wiki/The_Lord_of_the_Rings)
+- [Robot series](https://en.wikipedia.org/wiki/Robot_series)
+
+## Non Fiction
+
+- [Sapiens: A Brief History of Humankind](https://en.wikipedia.org/wiki/Sapiens:_A_Brief_History_of_Humankind)
+- [India Unbound](https://en.wikipedia.org/wiki/India_Unbound)
+- [The Difficulty of Being Good](https://en.wikipedia.org/wiki/The_Difficulty_of_Being_Good)
+
+## Favourite Authors
+
+- [J. K. Rowling](https://en.wikipedia.org/wiki/J._K._Rowling)
+- [Isaac Asimov](https://en.wikipedia.org/wiki/Isaac_Asimov)
+- [J. R. R. Tolkien](https://en.wikipedia.org/wiki/J._R._R._Tolkien)
+- [Gurcharan Das](https://en.wikipedia.org/wiki/Gurcharan_Das)
+- [Yuval Noah Harari](https://en.wikipedia.org/wiki/Yuval_Noah_Harari)
+
+# Photography
+
+I have dabbled on and off with Photography for the past few years. I mostly click landscape photographs. Below are a few links to my photography collections.
+
+- [Flickr](https://www.flickr.com/photos/97713098@N06/)
+- [500px](https://500px.com/p/GouravmoyMohanty?view=photos)
+
+# Short stories
+
+In my college days I had written a few short stories. Even though i dont write much anymore i like to keep the collection so as to remind myself of the carefree days of creativity. Link to blog - [Thus Spake Goura](https://thusspakegoura.blogspot.com/2015/11/are-you-lost-there.html?_sm_au_=ijVRQZW3tRTPTW2sML8tvK34L00HF)
+
+# Disclaimer
+
+The views and opinions expressed in this blog are my own and do not represent the views of my organization or anyone else.
+
+# Contacts
+
+- [Email](mailto:gouravmoy.mohanty91@mail.com)
+- [Github](https://github.com/Gouravmoy)
+
