@@ -3,7 +3,7 @@ layout: post
 title:  "Start of the project"
 date:   2020-10-01 18:41:33 +0530
 categories: agile
-published: true
+published: false
 ---
 
 # Background

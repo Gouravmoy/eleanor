@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img src=".\assets\_50.jpg" style="zoom:67%;" />
+<a href="https://imgur.com/pVpsfBx"><img src="https://i.imgur.com/pVpsfBx.jpg" title="source: imgur.com" style="zoom:67%;" /></a>
 
 # Gouravmoy Mohanty
 
