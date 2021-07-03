@@ -18,7 +18,7 @@ After SpringBoot 2.x being introduced and it providing out of the box support fo
 
 One of the problems I have faced with this approach is that sometimes SpringBoot does not pick up the properties even when the properties are correctly defined. This maybe due to multiple factors like Hikari version that is imported or simply SpringBoot skipping the properties. When the connection pool misbehaves and does not take up the values proved in the application configuration, it creates a lot of frustration. 
 
-![](assets/images/GitHub-Mark-32px.png) **Code Example**
+![](/assets/images/GitHub-Mark-32px.png) **Code Example**
 
 This article is accompanied by a working code example [on GitHub](https://github.com/Gouravmoy/hikariConfig).
 
