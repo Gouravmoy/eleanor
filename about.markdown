@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img src="/eleanor/images/50.jpg" style="zoom:67%;" alt="Gourav" /></a>
+<img src="/eleanor/images/50.jpg" style="zoom:67%;" alt="Gourav" />
 
 * TOC
 {:toc}
