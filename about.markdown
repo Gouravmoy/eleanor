@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<a href="https://imgur.com/pVpsfBx"><img src="https://i.imgur.com/pVpsfBx.jpg" title="source: imgur.com" style="zoom:67%;" /></a>
+<a href="https://imgur.com/pVpsfBx"><img src="{{site.baseurl}}/assets/images/50.jpg" title="source: imgur.com" style="zoom:67%;" /></a>
 
 * TOC
 {:toc}
