@@ -4,14 +4,14 @@ title: About
 permalink: /about/
 ---
 
-<img src="/eleanor/images/50.jpg" style="zoom:67%;" alt="Gourav" />
+![](/eleanor/assets/images/profile.jpg)
 
 * TOC
 {:toc}
 
 # Gouravmoy Mohanty
 
-Hello everyone. I am Gouravmoy Mohanty and I am a software engineer living in Bangalore India.  
+Hello everyone. I am Gouravmoy Mohanty and I am a software engineer living in Bangalore, India.  
 
 # What and Why Eleanor?
 
