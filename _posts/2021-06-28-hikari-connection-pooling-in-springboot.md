@@ -16,7 +16,7 @@ Before SpringBoot 2.x SpringBoot didn't use to support Hikari out of the box. Be
 
 After SpringBoot 2.x being introduced and it providing out of the box support for Hikari, we no longer need to special applications properties. We will be able to use the ones [provided by Spring](https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html#application-properties.data.spring.datasource.hikari) by default. 
 
-One of the problems I have faced with this approach is that sometimes SpringBoot does not pick up the properties even when the properties are correctly defined. This maybe due to multiple factors like Hikari version that is imported or simply SpringBoot skipping the properties. When the connection pool misbehaves and does not take up the values proved in the application configuration, it creates a lot of frustration. 
+One of the problems faced with this approach is that sometimes SpringBoot does not pick up the properties even when the properties are correctly defined. This maybe due to multiple factors like Hikari version that is imported or simply SpringBoot skipping the properties. When the connection pool misbehaves and does not take up the values proved in the application configuration, it creates a lot of frustration. 
 
 ![](/eleanor/assets/images/GitHub-Mark-32px.png) **Code Example**
 
@@ -28,16 +28,71 @@ Because of this, it makes sense to have a better degree of control over the Hika
 
 > The below setup is tested with SpringBoot version 2.1.5 onward.
 
-## Adding Common pooling
+We start by creating a new SpringBoot project to demonstrate the changes
 
-Add the below dependency in your application
+## Dependencies
+
+`pom.xml`
 
 ```xml
-<dependency>
-	<groupId>org.apache.commons</groupId>
-	<artifactId>commons-pool2</artifactId>
-</dependency>
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.1.5.RELEASE</version>
+		<relativePath /> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com.example</groupId>
+	<artifactId>hikariConfg</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>hikariConfg</name>
+	<description>Demo project for Spring Boot</description>
+	<properties>
+		<java.version>1.8</java.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+</project>
 ```
+
+
 
 ## Application configuration properties
 
@@ -167,11 +222,11 @@ app.datasource.cp.idleConTimeout=45m
 
 The **Hikari  pooling configuration** section of the properties contains information regarding the connection pooling
 
-- `app.datasource.cp.maxConTime`-  Global connection timeout. This is the time duration after which all connections will be terminated irrespective of state. This value should be set as high as the database infrastructure allows
+- `app.datasource.cp.maxConTime`-  Global connection timeout. This is the time duration after which all connections will be terminated. An in-use connection will never be retired, only when it is closed will it then be removed. This value should be set as high as the database infrastructure allows
 
 - `app.datasource.cp.maximumPoolSize` - Maximum number of connections that the pool can create. The number is reached in case of high load but never exceeds the value. The value can be accurately be determined by determining the number of API calls happening to the application and how many database connection would be required at the same time.
 
-  I have kept this value at 10 connections. It can be changed and increased as per requirement.
+  Keep this value at 10 connections. It can be changed and increased as per requirement.
 
 - `app.datasource.cp.minPoolSize`- Minimum number of connections that is always maintained by the pool irrespective of state of the connections.
 
@@ -226,9 +281,11 @@ com.zaxxer.hikari.HikariConfig:username........................"username"
 com.zaxxer.hikari.HikariConfig:validationTimeout...............5000
 ```
 
+To get more detailed list of configurations, please check the official page - https://github.com/brettwooldridge/HikariCP#gear-configuration-knobs-baby
+
 # Global Connection timeout flow
 
-Global Connection time out is considered as the amount of time after which all the connections in the pool, irrespective of the connection being active or idle or waiting are terminated
+Global Connection time out is considered as the amount of time after which all the connections in the pool are terminated. An in-use connection will never be terminated, only when it is closed will it then be removed
 
 This value is set in the parameter - `maxConTime` .
 
@@ -272,6 +329,25 @@ Once the connections are idle for 1 minute, Hikari will start terminating the co
 
 > Important: Global connection timeout always takes preference to idle connection timeout. This means that even though the connection may not have reached the idle timeout, if the global timeout is reached, then the connection is terminated and new connections are created.
 
+# Recommended values
+
+- `app.datasource.cp.maxConTime` - keep this value as high as the limit of your database infrastructure. You can thing about keeping this value as high as 30 days. Keeping this value low will create issue like mass extinction of connections. This may create issues while application tries to get all the connections up again. 
+
+- `app.datasource.cp.maximumPoolSize` - Setting up this value is a bit counter intuitive in nature. Even though you may think to keep this value very high, but the higher this value you set, there is a probability that it may increase the wait time of your connection as more connections are connected at the same time taking a lot of memory from your database. 
+
+  Keep this value at 2 to 3 times the number of cores of your database. Beyond this, it may do more harm than good. Check the below links to see how this can happen
+
+- `app.datasource.cp.minPoolSize` - this is the minimum number of connections that your application holds. Have this value to 5 and then monitor if you are still seeing a lot of idle connections. If yes, reduce this value further. 
+
+- `app.datasource.cp.idleConTimeout` - this value is critical for surge situations. When a surge happens, a lot of connections gets created and when the surge passes, the newly created connections becomes idle and will eventually get removed. Keeping this value very low result in the idle connections being removed very fast. If a surge comes back soon after the connections are removed, then again new connections would be created which is costly
+
+  Keep this value high like 45 minutes. This means that even if a surge comes, the connections are not dropped for 45 minutes. This gives ample time for a new surge to come and the idle connections to be re-used.
+
+There are some great resources for considering how to set up connection pool parameters. Please check the below links for more details:
+
+- [About Pool Sizing](https://github.com/brettwooldridge/HikariCP/wiki/About-Pool-Sizing) (highly recommended)
+- [Connection pooling for PostgreSQL for high performance](https://distributedsystemsauthority.com/connection-pooling-postgresql-high-performance-guide-part-3-12/)
+
 # Conclusion
 
-With the above changes, we can exert better control over how a SpringBoot application handles connections to the database. 
+With the above changes, we can exert better control over how a SpringBoot application handles connections to the database. It may take multiple tries to get the connection parameters values that works. Its important to know what they mean and accordingly setting them up for best performance.
