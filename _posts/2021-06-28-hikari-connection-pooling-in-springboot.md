@@ -281,7 +281,7 @@ com.zaxxer.hikari.HikariConfig:username........................"username"
 com.zaxxer.hikari.HikariConfig:validationTimeout...............5000
 ```
 
-To get more detailed list of configurations, please check the official page - https://github.com/brettwooldridge/HikariCP#gear-configuration-knobs-baby
+To get more detailed list of configurations, please check the official page - [Hikari Connection Configurations](https://github.com/brettwooldridge/HikariCP#gear-configuration-knobs-baby)
 
 # Global Connection timeout flow
 
