@@ -3,8 +3,11 @@ layout: post
 title:  "Customize Hikari connection pooling for SpringBoot application"
 date:   2021-06-28 18:41:33 +0530
 categories: programming
+author: gouravmoy
 published: true
 ---
+
+
 
 * TOC
 {:toc}
