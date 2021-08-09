@@ -7,9 +7,7 @@ author: gouravmoy
 published: true
 ---
 
-I had recently visited Bangalore Bannerghatta Zoo ([Official Website](https://bannerghattabiologicalpark.org/)). This is a zoo located in in the outskirts region of Bangalore city, Karnataka, India. This zoo is a part of a larger national wildlife park called Bannerghatta National Park ([Wikipedia](https://en.wikipedia.org/wiki/Bannerghatta_National_Park)).
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.6904578740096!2d77.56564631404176!3d12.798593422115582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae69e00b196db1%3A0x4f6f2e78ffa13a5f!2sBannerghatta%20Biological%20Park!5e0!3m2!1sen!2ssg!4v1628531528204!5m2!1sen!2ssg" width="800" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+I had recently visited [Bangalore Bannerghatta Zoo](https://goo.gl/maps/raG8JdDnprpZPSLy7). This is a zoo located in in the outskirts region of Bangalore city, Karnataka, India. This zoo is a part of a larger national wildlife park called Bannerghatta National Park ([Wikipedia](https://en.wikipedia.org/wiki/Bannerghatta_National_Park)).
 
 For the past week I had been stuck in my house and had a yearn to go and spend some time with the Zoo animals. From time to time I feel the urge to slow down a bit and spend some time looking at the trees and nature. Living in a city, its often difficult to find such places. Places those are far away from the constant hubbub of the city.
 
@@ -58,6 +56,3 @@ Below are a few pictures which I took with my Samsung phone.
 Finally, after the outing I went to a restaurant named [Fattoush](https://goo.gl/maps/KKBLL2V3Rkwgn5am6). This is one of the best places if you wnat to have authentic Arabian food.
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/97713098@N06/51367845198/in/dateposted-public/" title="Afghani chicken @ Fattoush"><img src="https://live.staticflickr.com/65535/51367845198_b8afb60cb5_c.jpg" width="800" height="600" alt="Afghani chicken @ Fattoush"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-
-
