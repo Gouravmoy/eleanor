@@ -3,13 +3,12 @@ layout: page
 title: About
 permalink: /about/
 ---
+# Gouravmoy Mohanty
 
 ![](/eleanor/assets/images/profile.jpg)
 
 * TOC
 {:toc}
-
-# Gouravmoy Mohanty
 
 Hello everyone. I am Gouravmoy Mohanty and I am a software engineer living in Bangalore, India.  
 
@@ -71,4 +70,3 @@ The views and opinions expressed in this blog are my own and do not represent th
 
 - [Email](mailto:gouravmoy.mohanty91@mail.com)
 - [Github](https://github.com/Gouravmoy)
-
