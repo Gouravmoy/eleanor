@@ -164,6 +164,7 @@ public class DataSourceConfig extends HikariConfig {
 	private String driverClassName;
 	private int minPoolSize;    
 	private Duration idleConTimeout;
+    private Duration dbConnTimeout;
 
 	@Bean(name = "dataSource")
 	public DataSource dataSource() {
@@ -178,6 +179,7 @@ public class DataSourceConfig extends HikariConfig {
 		hikariDataSource.setMinimumIdle(minPoolSize);
 		hikariDataSource.setDriverClassName(driverClassName);
 		hikariDataSource.setAutoCommit(true);
+        hikariDataSource.setConnectionTimeout(dbConnTimeout.toMillis());
 		return hikariDataSource;
 	}
 }
@@ -219,6 +221,7 @@ app.datasource.cp.maximumPoolSize=10
 app.datasource.cp.poolName=customConnectionPoolName
 app.datasource.cp.minPoolSize=2
 app.datasource.cp.idleConTimeout=45m
+app.datasource.cp.dbConnTimeout=10s
 ```
 
 
@@ -234,6 +237,8 @@ The **Hikari  pooling configuration** section of the properties contains informa
 - `app.datasource.cp.minPoolSize`- Minimum number of connections that is always maintained by the pool irrespective of state of the connections.
 
 - `app.datasource.cp.idleConTimeout` - The time duration after which an idle connection is terminated. This parameter is helpful after a sudden load surge to the application. During the load surge, new connections are created to accommodate the increased database calls. Once the load goes back to normal, the additional connections go back to being idle and are removed after the `idleConTimeout` duration.
+
+- `app.datasource.cp.dbConnTimeout` - This is the time duration until which the application will wait for a connections from the database. This property is important in setting the health-check of the application. The value should be less than what is set as the threshold for the health-check. Once this time is elapsed without the application getting a connections, then it is considered that the application has lost connectivity with the database and needs to be restarted.
 
 ## Logging configurations
 
