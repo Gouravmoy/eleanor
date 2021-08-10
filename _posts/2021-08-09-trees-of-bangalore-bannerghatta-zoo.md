@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The trees of Bangalore Bannerghatta Zoo"
+title:  "The Trees of Bangalore Bannerghatta Zoo"
 date:   2021-08-09 20:42:00 +0530
 categories: photography
 author: gouravmoy
@@ -53,6 +53,6 @@ Below are a few pictures which I took with my Samsung phone.
 
 ![](/eleanor/assets/images/posts/tree_15.jpg)
 
-Finally, after the outing I went to a restaurant named [Fattoush](https://goo.gl/maps/KKBLL2V3Rkwgn5am6). This is one of the best places if you wnat to have authentic Arabian food.
+Finally, after the outing for lunch I went to a restaurant named [Fattoush](https://goo.gl/maps/KKBLL2V3Rkwgn5am6). This is one of the best restaurants that give you authentic Arabian food. I had Biriyani, Afghani Chicken and an orange juice. So yeah, overall an fulfilling solo outing!
 
 ![](/eleanor/assets/images/posts/tree_16.jpg)
