@@ -6,5 +6,4 @@ tag: hello
 categories: posts
 ---
 
-Well hello there. I live in India and I am a coder. 
-
+Hello World!
