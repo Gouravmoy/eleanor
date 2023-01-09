@@ -18,17 +18,19 @@ I have created this blog to serve as a repository for all the knowledge I have a
 
 I have named this blog for the female lead character of the same name in the book [Eleanor & Park](https://en.wikipedia.org/wiki/Eleanor_%26_Park). I had immensely enjoyed reading the book and had really like Eleanor's character in the book. So I have dedicated the  name of my blog in her name. 
 
-# Software Engineering
+# Product Management & Software Engineering
 
 I started my career working for a QA team. As I was the only one who had the knowledge of how to code, I was given over the responsibility to manage the automation tool for the project. It was fun working on a small independent project and improving an existing product.
 
 After that I worked on creating an RCP (Rich Client Platform) based desktop application that will help QA team compare huge source and target datasets of any types (CSV, XML, database rows, etc.) and give them a report of the differences.
 
-Next, in the current role, I have been working on building a web based application. It is an inhouse productivity suite consisting of multiple sub products. I have been working as a back-end developer in one of the sub-product 
+Next, I took over the role of Product Manager of my team. I was given the responsibility for a team of 8 members by the Director in my company. And even though I did not know much about PM, I took up the challenge. 
+
+After that it was more of a self discovery for me. I soon realized that I did not know much about what responsibilities my role encompasses. This is when I went online and started learning about how PM is done. What is Agile? How do I manage an Agile team? What are some processes that can be introduced to make the team work better? And I have never looked back from there. I have been managing a 10 member team and working cross functionally for close to 5 years now and it has been an awesome experience. 
 
 # Reading
 
-Besides software engineering, I am an avid reader. I like to read fiction and occasionally non fiction. Below is the list of the books I like:
+Besides software engineering and product management, I am an avid reader and an audiobooks listener. I like to read/listen fiction and occasionally non fiction. Below is the list of the books I like:
 
 ## Fiction
 
@@ -36,6 +38,7 @@ Besides software engineering, I am an avid reader. I like to read fiction and oc
 - [The Dresden Files](https://en.wikipedia.org/wiki/The_Dresden_Files)
 - [Lord of the Rings Series](https://en.wikipedia.org/wiki/The_Lord_of_the_Rings)
 - [Robot series](https://en.wikipedia.org/wiki/Robot_series)
+- [Millennium Novel Series](https://en.wikipedia.org/wiki/Millennium_(novel_series))
 
 ## Non Fiction
 
@@ -48,6 +51,7 @@ Besides software engineering, I am an avid reader. I like to read fiction and oc
 - [J. K. Rowling](https://en.wikipedia.org/wiki/J._K._Rowling)
 - [Isaac Asimov](https://en.wikipedia.org/wiki/Isaac_Asimov)
 - [J. R. R. Tolkien](https://en.wikipedia.org/wiki/J._R._R._Tolkien)
+- [Stieg Larsson](https://en.wikipedia.org/wiki/Stieg_Larsson)
 - [Gurcharan Das](https://en.wikipedia.org/wiki/Gurcharan_Das)
 - [Yuval Noah Harari](https://en.wikipedia.org/wiki/Yuval_Noah_Harari)
 
