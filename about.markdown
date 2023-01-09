@@ -10,8 +10,6 @@ permalink: /about/
 * TOC
 {:toc}
 
-Hello everyone. I am Gouravmoy Mohanty and I am a software engineer living in Bangalore, India.  
-
 # What and Why Eleanor?
 
 I have created this blog to serve as a repository for all the knowledge I have and will be accumulating in my life. I am hoping to create posts about the topics I like like software engineering, books, photography, philosophy, short stories and life in general. I do this so that one day I and other may turn back to this for help and guidance 
@@ -64,7 +62,7 @@ I have dabbled on and off with Photography for the past few years. I mostly clic
 
 # Short stories
 
-In my college days I had written a few short stories. Even though I dont write much anymore I like to keep the collection so as to remind myself of the carefree days of creativity. Link to blog - [Thus Spake Goura](https://thusspakegoura.blogspot.com/2015/11/are-you-lost-there.html?_sm_au_=ijVRQZW3tRTPTW2sML8tvK34L00HF)
+In my college days I had written a few short stories. Even though I dont write much anymore I like to keep the collection so as to remind myself of the carefree days of creativity. Link to blog - [Thus Spake Goura](https://thusspakegoura.blogspot.com/2015/01/arre-de-na.html)
 
 # Disclaimer
 
