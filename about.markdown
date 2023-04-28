@@ -22,9 +22,9 @@ I started my career working for a QA team. As I was the only one who had the kno
 
 After that I worked on creating an RCP (Rich Client Platform) based desktop application that will help QA team compare huge source and target datasets of any types (CSV, XML, database rows, etc.) and give them a report of the differences.
 
-Next, I took over the role of Product Manager of my team. I was given the responsibility for a team of 8 members by the Director in my company. And even though I did not know much about PM, I took up the challenge. 
+Next, I took over the role of Product Manager of my team. I was given the responsibility for a team of 8 members by the Director in my company. And even though I did not know much about PM, I took up the challenge. After that it has been more of a self discovery for me. I soon realized that I did not know much about what responsibilities my role encompasses. This is when I went online and started learning about how PM is done. What is Agile? How do I manage an Agile team? What are some processes that can be introduced to make the team work better? 
 
-After that it was more of a self discovery for me. I soon realized that I did not know much about what responsibilities my role encompasses. This is when I went online and started learning about how PM is done. What is Agile? How do I manage an Agile team? What are some processes that can be introduced to make the team work better? And I have never looked back from there. I have been managing a 10 member team and working cross functionally for close to 5 years now and it has been an awesome experience. 
+And I have never looked back from there. I have been managing a 10 member team and working cross functionally for close to 5 years now and it has been an awesome experience. 
 
 # Reading
 
@@ -37,6 +37,7 @@ Besides software engineering and product management, I am an avid reader and an 
 - [Lord of the Rings Series](https://en.wikipedia.org/wiki/The_Lord_of_the_Rings)
 - [Robot series](https://en.wikipedia.org/wiki/Robot_series)
 - [Millennium Novel Series](https://en.wikipedia.org/wiki/Millennium_(novel_series))
+- [Bobiverse Series](https://www.goodreads.com/series/192752-bobiverse)
 
 ## Non Fiction
 
@@ -50,6 +51,7 @@ Besides software engineering and product management, I am an avid reader and an 
 - [Isaac Asimov](https://en.wikipedia.org/wiki/Isaac_Asimov)
 - [J. R. R. Tolkien](https://en.wikipedia.org/wiki/J._R._R._Tolkien)
 - [Stieg Larsson](https://en.wikipedia.org/wiki/Stieg_Larsson)
+- [Dennis E. Taylor](https://en.wikipedia.org/wiki/Dennis_E._Taylor)
 - [Gurcharan Das](https://en.wikipedia.org/wiki/Gurcharan_Das)
 - [Yuval Noah Harari](https://en.wikipedia.org/wiki/Yuval_Noah_Harari)
 
@@ -70,5 +72,5 @@ The views and opinions expressed in this blog are my own and do not represent th
 
 # Contacts
 
-- [Email](mailto:gouravmoy.mohanty91@mail.com)
+- [gouravmoy.mohanty91@mail.com](mailto:gouravmoy.mohanty91@mail.com)
 - [Github](https://github.com/Gouravmoy)
