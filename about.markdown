@@ -38,6 +38,7 @@ Besides software engineering and product management, I am an avid reader and an 
 - [Robot series](https://en.wikipedia.org/wiki/Robot_series)
 - [Millennium Novel Series](https://en.wikipedia.org/wiki/Millennium_(novel_series))
 - [Bobiverse Series](https://www.goodreads.com/series/192752-bobiverse)
+- [Children of Time](https://en.wikipedia.org/wiki/Children_of_Time_(novel))
 
 ## Non Fiction
 
@@ -54,6 +55,7 @@ Besides software engineering and product management, I am an avid reader and an 
 - [Dennis E. Taylor](https://en.wikipedia.org/wiki/Dennis_E._Taylor)
 - [Gurcharan Das](https://en.wikipedia.org/wiki/Gurcharan_Das)
 - [Yuval Noah Harari](https://en.wikipedia.org/wiki/Yuval_Noah_Harari)
+- [Adrian Tchaikovsky](https://en.wikipedia.org/wiki/Adrian_Tchaikovsky)
 
 # Photography
 
