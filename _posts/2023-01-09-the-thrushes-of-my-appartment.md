@@ -2,7 +2,7 @@
 layout: post
 title:  "The Thrushes of my apartment"
 date:   2023-01-09 23:55:00 +0530
-categories: musings
+categories: writings
 author: gouravmoy
 published: true
 ---

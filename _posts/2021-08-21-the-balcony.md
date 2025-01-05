@@ -2,7 +2,7 @@
 layout: post
 title:  "The Balcony"
 date:   2021-08-21 11:37:00 +0530
-categories: musings
+categories: writings
 author: gouravmoy
 published: true
 ---

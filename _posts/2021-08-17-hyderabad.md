@@ -2,7 +2,7 @@
 layout: post
 title:  "Hyderabad"
 date:   2021-08-17 19:59:00 +0530
-categories: musings
+categories: writings
 author: gouravmoy
 published: true
 ---
